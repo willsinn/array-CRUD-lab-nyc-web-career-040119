@@ -1,12 +1,10 @@
 def create_an_empty_array
-  empty_array=[]
+  []
 end
 
 def create_an_array
-  an_array=["hi", "ho", "thum", "pee"]
-  return an_array
+  ["hi", "ho", "thum", "pee"]
 end
-an_array=[]
 def add_element_to_end_of_array(array, element)
   an_array.push(element)
 end
